@@ -1,0 +1,48 @@
+"*":
+  "autocomplete-plus":
+    confirmCompletion: "tab always, enter when suggestion explicitly selected"
+  "autocomplete-python":
+    useKite: false
+  core:
+    disabledPackages: [
+      "uber-juno"
+      "julia-client"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    atomicSoftTabs: false
+    autoIndentOnPaste: false
+    fontSize: 13
+    scrollPastEnd: true
+    softWrap: true
+  "exception-reporting":
+    userId: "2eaa46f7-4dd3-4a66-8baa-d0d91d55ed3f"
+  "julia-client":
+    currentVersion: "0.12.6"
+    firstBoot: false
+    juliaPath: "/u/24/rantahj1/unix/julia-1.5.3/bin/julia"
+    uiOptions:
+      enableMenu: true
+      enableToolBar: true
+      layouts:
+        openDefaultPanesOnStartUp: false
+  "linter-ui-default": {}
+  "terminal-tab":
+    defaultLocation: "left"
+  "tool-bar":
+    iconSize: "21px"
+    position: "Left"
+    visible: false
+  "uber-juno":
+    disable: true
+  "vk-terminal":
+    core: {}
+".python.regexp.source":
+  editor:
+    tabLength: 3
+".python.source":
+  editor:
+    autoIndentOnPaste: false
+    showIndentGuide: true
+    tabLength: 3
+    tabType: "auto"
